@@ -39,7 +39,7 @@ export default function App() {
       <input id="picture" type="text" value={picture} onChange={(e) => setPicture(e.target.value)}/>
 
       <label htmlFor="name">Name:</label>
-      <input id="name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+      <input id="name" type="text" value={name} onChange={(e) => setName(e.target.value)}/>
 
       <button type="button" onClick={addFriend}>Add Friend</button>
 
